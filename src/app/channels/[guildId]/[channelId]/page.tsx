@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { Suspense } from "react";``
+import { Suspense } from "react";
 
 import ChannelView, { getChannelInfo } from "./ChannelView";
 import Loading from "./loading";
